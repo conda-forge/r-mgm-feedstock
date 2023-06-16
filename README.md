@@ -1,11 +1,11 @@
-About r-mgm
-===========
+About r-mgm-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-mgm-feedstock/blob/main/LICENSE.txt)
 
 Home: https://arxiv.org/abs/1510.06871
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-mgm-feedstock/blob/main/LICENSE.txt)
 
 Summary: Estimation of k-Order time-varying Mixed Graphical Models and mixed VAR(p) models via elastic-net regularized neighborhood regression. For details see Haslbeck & Waldorp (2020) <doi:10.18637/jss.v093.i08>.
 
