@@ -1,4 +1,4 @@
-{% set version = "1.2-13" %}
+{% set version = "1.2-14" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/mgm_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/mgm/mgm_{{ version }}.tar.gz
-  sha256: 6c5581116729bb5445ce4a01c78651e3813411b869f1d07dd6075eb6a2f37951
+  sha256: fcdf895a6d782217e8705394a21f5803cbaccaefb94c5618b4ea6f6482dbb0c8
 
 build:
   merge_build_host: true  # [win]
-  number: 2
+  number: 0
   noarch: generic
 
   rpaths:
