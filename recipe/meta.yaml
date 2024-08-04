@@ -1,6 +1,5 @@
 {% set version = "1.2-14" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-mgm
@@ -13,8 +12,7 @@ source:
   sha256: fcdf895a6d782217e8705394a21f5803cbaccaefb94c5618b4ea6f6482dbb0c8
 
 build:
-  merge_build_host: true  # [win]
-  number: 0
+  number: 1
   noarch: generic
 
   rpaths:
