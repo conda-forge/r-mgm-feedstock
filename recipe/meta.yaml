@@ -1,4 +1,4 @@
-{% set version = "1.2-14" %}
+{% set version = "1.2-15" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/mgm_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/mgm/mgm_{{ version }}.tar.gz
-  sha256: fcdf895a6d782217e8705394a21f5803cbaccaefb94c5618b4ea6f6482dbb0c8
+  sha256: 40746dc3fa1c3723607e9ed04f1a95d71a0acec80817b4a5efd94b0912900a04
 
 build:
-  number: 1
+  number: 0
   noarch: generic
 
   rpaths:
